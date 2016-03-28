@@ -1,0 +1,142 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "attack_miss",
+  "_objFlags": 0,
+  "_duration": 1.5,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "hero": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -273,
+                -159
+              ],
+              "motionPath": [
+                [
+                  -53,
+                  -103,
+                  -160,
+                  -103,
+                  54,
+                  -103
+                ]
+              ],
+              "curve": [
+                0.52,
+                -0.38,
+                0.85,
+                0.67
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                155,
+                -159
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                155,
+                -159
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                -273,
+                -159
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "152bed70-a0da-419b-a249-67e91077f7f2"
+                }
+              },
+              {
+                "frame": 0.26666666666666666,
+                "value": {
+                  "__uuid__": "4a3e935d-d77e-4f64-9119-19fc67e1c18f"
+                }
+              },
+              {
+                "frame": 1.2333333333333334,
+                "value": {
+                  "__uuid__": "152bed70-a0da-419b-a249-67e91077f7f2"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "monster": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.5,
+              "value": [
+                273,
+                -160
+              ]
+            },
+            {
+              "frame": 0.6333333333333333,
+              "value": [
+                324,
+                -160
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                324,
+                -160
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                273,
+                -160
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1.5,
+      "func": "missFinish",
+      "params": []
+    }
+  ]
+}

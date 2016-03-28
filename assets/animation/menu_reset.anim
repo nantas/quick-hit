@@ -62,6 +62,48 @@
             }
           ]
         }
+      },
+      "btnAtk": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "animRoot": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -486
+              ]
+            }
+          ]
+        }
+      },
+      "fightAnim": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -478
+              ]
+            }
+          ]
+        }
       }
     }
   },

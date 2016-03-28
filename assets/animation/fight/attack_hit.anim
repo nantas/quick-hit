@@ -1,0 +1,289 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "attack_hit",
+  "_objFlags": 0,
+  "_duration": 1.5,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "hero": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -273,
+                -159
+              ],
+              "curve": [
+                0.68,
+                -0.39,
+                0.89,
+                0.63
+              ],
+              "motionPath": [
+                [
+                  -36,
+                  -122,
+                  -144,
+                  -122,
+                  78,
+                  -122
+                ]
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                172,
+                -159
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1,
+              "value": [
+                172,
+                -159
+              ],
+              "curve": [
+                0.39,
+                -0.48,
+                0.82,
+                0.65
+              ],
+              "motionPath": [
+                [
+                  -57,
+                  -139,
+                  57,
+                  -139,
+                  -166,
+                  -139
+                ]
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                -273,
+                -159
+              ],
+              "motionPath": []
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "152bed70-a0da-419b-a249-67e91077f7f2"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "4a3e935d-d77e-4f64-9119-19fc67e1c18f"
+                }
+              },
+              {
+                "frame": 1.0666666666666667,
+                "value": {
+                  "__uuid__": "152bed70-a0da-419b-a249-67e91077f7f2"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "monster": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.5,
+              "value": [
+                273,
+                -160
+              ]
+            },
+            {
+              "frame": 0.5333333333333333,
+              "value": [
+                279,
+                -160
+              ]
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": [
+                270,
+                -160
+              ]
+            },
+            {
+              "frame": 0.6,
+              "value": [
+                284,
+                -160
+              ]
+            },
+            {
+              "frame": 0.6333333333333333,
+              "value": [
+                279,
+                -160
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1.0666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "monster/flash": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "blood": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": true
+              },
+              {
+                "frame": 0.7,
+                "value": false
+              }
+            ],
+            "spriteFrame": [
+              {
+                "frame": 0.5333333333333333,
+                "value": {
+                  "__uuid__": "9141fb45-efb6-4f9a-bbec-216f191711c4"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "ed9faaa4-7133-4fd8-b500-43e335b13f48"
+                }
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": {
+                  "__uuid__": "ef48f06b-7643-4f8a-b9cc-b507d154d97a"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "position": [
+            {
+              "frame": 0.5333333333333333,
+              "value": [
+                295,
+                -57
+              ]
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                347,
+                -32
+              ]
+            }
+          ]
+        }
+      },
+      "slash": {
+        "comps": {
+          "cc.Sprite": {
+            "enabled": [
+              {
+                "frame": 0,
+                "value": false
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": true
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": false
+              }
+            ],
+            "spriteFrame": [
+              {
+                "frame": 0.5333333333333333,
+                "value": {
+                  "__uuid__": "31df20ae-0e3c-4ba4-9393-5d989913cb5d"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "7b68c4de-a99d-4751-b89b-3c9a116a12e3"
+                }
+              },
+              {
+                "frame": 0.6333333333333333,
+                "value": {
+                  "__uuid__": "5f463e3b-926f-435f-91ef-eca46b458525"
+                }
+              },
+              {
+                "frame": 0.7,
+                "value": {
+                  "__uuid__": "7eaea05c-3922-4636-979f-9f9c9478b067"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

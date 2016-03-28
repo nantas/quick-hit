@@ -3,19 +3,110 @@
   "_name": "menu_back",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 0,
-  "sample": 60,
+  "_duration": 0.8333333333333334,
+  "sample": 30,
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
     "paths": {
-      "mask": {
-        "props": {}
+      "lower": {
+        "comps": {
+          "cc.Widget": {
+            "bottom": [
+              {
+                "frame": 0,
+                "value": 0,
+                "curve": [
+                  0.51,
+                  -0.33,
+                  0.77,
+                  0.6
+                ]
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": -220
+              }
+            ]
+          }
+        }
       },
-      "background": {
-        "props": {}
+      "btnAtk": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": [
+                0.41,
+                0.64,
+                0.64,
+                1.66
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": [
+                0.24,
+                0.37,
+                0.6,
+                1.83
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "fightAnim": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -478
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                0,
+                -478
+              ],
+              "curve": [
+                0.23,
+                0.34,
+                0.67,
+                1.67
+              ]
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 0.8333333333333334,
+      "func": "gameReady",
+      "params": []
+    }
+  ]
 }
