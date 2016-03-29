@@ -21,10 +21,15 @@ cc.Class({
     },
 
     gotoPlay: function () {
+        this.game.fightAnim.play('idle');
         this.menuAnim.play('menu_back');
     },
 
     gameReady: function () {
         this.game.ready();
+    },
+    
+    restart: function () {
+        this.menuAnim.play('menu_intro');
     }
 });

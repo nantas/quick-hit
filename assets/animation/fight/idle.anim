@@ -25,7 +25,34 @@
               "frame": 1,
               "value": 0.95
             }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -273,
+                -159
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
           ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "152bed70-a0da-419b-a249-67e91077f7f2"
+                }
+              }
+            ]
+          }
         }
       },
       "monster": {
@@ -39,7 +66,34 @@
               "frame": 1,
               "value": 0.95
             }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                273,
+                -160
+              ]
+            }
           ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "ce153385-d897-438f-a565-ee9e7ff1d660"
+                }
+              }
+            ]
+          }
         }
       },
       "slash": {
