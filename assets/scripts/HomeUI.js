@@ -5,13 +5,16 @@ cc.Class({
         menuAnim: {
             default: null,
             type: cc.Animation
-        }
+        },
+        counter: cc.Label
     },
 
     // use this for initialization
     init: function (game) {
         this.game = game;
         this.menuAnim.play('menu_reset');
+        this.playerWinCount = 0;
+        this.monsterWinCount = 0;
     },
 
     start: function () {
@@ -25,11 +28,20 @@ cc.Class({
         this.menuAnim.play('menu_back');
     },
 
-    gameReady: function () {
+    onMenuHide: function () {
         this.game.ready();
     },
     
     restart: function () {
         this.menuAnim.play('menu_intro');
+    },
+    
+    updateCounter(isPlayerWin) {
+        if (isPlayerWin) {
+            this.playerWinCount++;
+        } else {
+            this.monsterWinCount++;
+        }
+        this.counter.string = this.playerWinCount + ' : ' + this.monsterWinCount;
     }
 });
