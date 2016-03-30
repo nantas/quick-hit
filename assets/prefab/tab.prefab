@@ -57,6 +57,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -116,6 +117,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -184,7 +186,7 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "be1a4dM18VFNK3IpzlN4aQE"
+    "fileId": "c0a70ffV/BM44A+Sj2If4th"
   },
   {
     "__type__": "cc.Node",
@@ -228,6 +230,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -272,7 +275,7 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "d99d4siQudG6aM3YU1QVHCX"
+    "fileId": "0c639WA4FRLOIrWOyT0Bjce"
   },
   {
     "__type__": "cc.Node",
@@ -323,6 +326,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [],
@@ -372,6 +376,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -416,7 +421,7 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "48682U95yFIW5sDfaOTQPP/"
+    "fileId": "55fdfiNFdxJea/E4ABTCxc4"
   },
   {
     "__type__": "cc.Node",
@@ -460,6 +465,7 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
     "_id": "",
     "_active": true,
     "_components": [
@@ -504,7 +510,7 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "697a7u9xzFAhYab321DIabS"
+    "fileId": "35728f8bbpIXaiRLfd0dda7"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -512,7 +518,7 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "18b25q1yqFLPqcExG9E3Av5"
+    "fileId": "bd45dWb6IVP7729Cym2a/Mc"
   },
   {
     "__type__": "cc.Animation",
@@ -579,6 +585,6 @@
       "__id__": 1
     },
     "asset": null,
-    "fileId": "be9a8l/4e1DpI8JY7BBXy0G"
+    "fileId": "01f8ePV/vtAooLctx5RG68u"
   }
 ]

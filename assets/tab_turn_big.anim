@@ -2,7 +2,7 @@
   "__type__": "cc.AnimationClip",
   "_name": "tab_turn_big",
   "_objFlags": 0,
-  "_duration": 0.2,
+  "_duration": 0.43333333333333335,
   "sample": 30,
   "speed": 1,
   "wrapMode": 1,
@@ -64,7 +64,7 @@
         "props": {
           "scaleX": [
             {
-              "frame": 0,
+              "frame": 0.2,
               "value": 0,
               "curve": [
                 0.22,
@@ -74,13 +74,21 @@
               ]
             },
             {
-              "frame": 0.2,
+              "frame": 0.36666666666666664,
+              "value": 1
+            },
+            {
+              "frame": 0.4,
+              "value": 0.8
+            },
+            {
+              "frame": 0.43333333333333335,
               "value": 1
             }
           ],
           "scaleY": [
             {
-              "frame": 0,
+              "frame": 0.2,
               "value": 0,
               "curve": [
                 0.21,
@@ -90,7 +98,15 @@
               ]
             },
             {
-              "frame": 0.2,
+              "frame": 0.36666666666666664,
+              "value": 1
+            },
+            {
+              "frame": 0.4,
+              "value": 0.8
+            },
+            {
+              "frame": 0.43333333333333335,
               "value": 1
             }
           ]
