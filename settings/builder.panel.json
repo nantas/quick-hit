@@ -11,5 +11,5 @@
   "packageName": "org.cocos2d.keynotedemo",
   "startScene": "de6d47e5-011f-4c10-a385-1cd318777662",
   "title": "keynote_demo",
-  "webOrientation": "auto"
+  "webOrientation": "landscape"
 }

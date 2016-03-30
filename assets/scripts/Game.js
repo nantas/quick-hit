@@ -18,7 +18,7 @@ cc.Class({
     onLoad: function () {
         this.homeUI = this.homeUI.getComponent('HomeUI');
         this.homeUI.init(this);
-        if (this.result.showTitle) {
+        if (this.result && this.result.showTitle) {
             this.result.showTitle();            
         }
         cc.loader.loadRes('data/ranklist.json', (err, data) => {
@@ -38,7 +38,7 @@ cc.Class({
 
     // use this for initialization
     ready: function () {
-        if (this.result.node) {
+        if (this.result && this.result.node) {
             this.result.node.active = false;            
         }
         let indicator = this.powerBar.node.getChildByName('indicator').getComponent(cc.Widget);
@@ -60,7 +60,7 @@ cc.Class({
     },
 
     gameover: function () {
-        if (this.result.showLose) {
+        if (this.result && this.result.showLose) {
             this.result.showLose();            
         }
         cc.log('game over');
@@ -70,7 +70,7 @@ cc.Class({
     },
 
     win: function () {
-        if (this.result.showWin) {
+        if (this.result && this.result.showWin) {
             this.result.showWin();           
         }
         cc.log('you win');
