@@ -1,0 +1,13 @@
+{
+  "excludeScenes": [],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.keynote-demo",
+  "startScene": "0e82be96-6039-4c45-b297-7257389f31c9",
+  "title": "keynote-demo",
+  "webOrientation": "auto"
+}

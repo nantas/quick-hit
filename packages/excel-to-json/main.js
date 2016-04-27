@@ -49,5 +49,6 @@ module.exports = {
                 Editor.success('Install npm dependencies complete!');
             });
         }
+        
     }
 };
